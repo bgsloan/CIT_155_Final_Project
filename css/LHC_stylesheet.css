@@ -1,0 +1,172 @@
+/*
+	Student Name: Bridgette Sloan
+	Class: CIT 155
+	Project: Final Project - Lower Howard's Creek
+	File name: LHC_stylesheet.css
+	Date: 07/21/2024
+*/
+
+/* CSS RESET */
+body, header, nav, main, footer, img, h1, h3, figure, figcaption {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+/* STYLE RULES FOR HEADER */
+header {
+	padding: 3%;
+	background-color: #00664d;
+	font-family: "Bebas Neue", sans-serif;
+	color: #fff;
+	font-size: 2em;
+}	
+	
+	
+
+/* STYLE RULES FOR BODY, TABLES, & IMAGES */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h3, h4 {
+	font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+	font-family: "Inter Tight", sans-serif;
+}	
+
+body {
+	background-color: #c6ebd9;
+}	
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: #fff;
+  margin: 0 auto 0 auto;
+  font: sans-serif;
+}
+
+th {
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #ffd633;
+}
+
+img {
+	width: 50%;
+	display: block;
+}
+
+figcaption {
+	font-style: italic;
+	padding: 1%;
+}
+
+
+/* STYLE RULES FOR MAIN SECTION */
+
+main h3 {
+	font: sans-serif;
+	font-size: 2em;
+	margin-left: 1.5%;
+	padding-top: 2%;
+}
+
+main h4 {
+	font: sans-serif;
+	font-size: 1.5em;
+	margin-left: 1.5%;
+	padding-top: 1%;
+}	
+
+main p {
+	font: sans-serif;
+	font-size: 1em;
+	margin-left: 25px;
+	padding-bottom: 10px;
+}	
+
+.address p {
+	text-align: center;
+	margin: 0px;
+}
+
+/* BUTTON STYLE RULES */
+
+button {
+	background-color: #ffd633;
+	border: none;
+	font-weight: bold;
+}	
+
+
+/* STYLE RULES FOR NAVIGATION */
+nav {
+	background-color: #00664d;
+	
+}	
+
+nav ul {
+	text-align: center;
+	list-style-type: none;
+}	
+
+nav li {
+    display: inline-block;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+	margin: 10px;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+	padding: 0.25em;
+}
+
+
+/* STYLE RULES FOR FOOTER */
+footer {
+    text-align: center;
+    font-size: .75em;
+    background-color: #00664d;
+    color: #fff;
+    padding-top: 1%; 
+    padding-right:0%; 
+    padding-bottom: 1%;
+    padding-left: 0%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* MEDIA QUERY FOR MOBILE VIEWPORT */
+
+@media screen and (max-width: 480px){
+	main h3, h4 {
+		text-align: center;
+	}
+	
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%
+	}			
+}	
+
+
+
+
+
+
+
+
+
